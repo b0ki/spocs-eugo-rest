@@ -8,5 +8,12 @@
     <artifactId>spocs-client</artifactId>
     <version>0.1-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-client</artifactId>
+            <version>3.0-beta-3</version>
+        </dependency>
+    </dependencies>
     
 </project>
