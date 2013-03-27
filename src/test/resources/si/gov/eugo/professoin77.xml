@@ -1,0 +1,27 @@
+<profession id="77" href="/api/professions/professions/?uid=77">
+    <title>Responsible architectural designer (architect)</title>
+    <description>
+        <![CDATA[<p><strong>An architect</strong> develops plans for the construction of new buildings, housing estates, houses and other structures, monuments, etc., or for the adaptation of existing structures. </p><p>During the course of this activity, the architect cooperates with other building construction specialists. <strong>A responsible designer</strong> (in architecture) is fully accountable for the compliance of prepared designs with the relevant spatial acts, building construction regulations and conditions imposed by the competent authorities (consent givers). </p><p><strong>A responsible architectural designer</strong> is an individual who is <strong>registered with the Chamber of Architecture and Spatial Planning of Slovenia</strong> (ZAPS). In order to qualify for registration, an applicant shall have adequate practical experience gained after the completion of an appropriate course of study course, have successfully passed a professional examination in architectural design administered by the Slovenian Chamber of Architecture and Spatial Planning, and have professional liability insurance coverage.</p><p>Upon entry in the register, a responsible designer in architecture is assigned the status of a licensed architect, and is provided with<strong> a stamp</strong> and<strong> identity card</strong> which he/she then uses in the pursuit of the profession.</p><p> Membership of the Chamber, which is manadatory, starts on the date of entry in the register.&nbsp;</p>]]></description>
+    <conditions>
+        <condition type="permit" id="77" href="/api/permits/permit/?uid=88&amp;professionUid=77">Entry in the register
+            of responsible designers
+        </condition>
+        <condition type="other-condition" id="Tx_A3Ekt_Domain_Model_DrugiPogoj:609"
+                   href="/api/other-conditions/other-condition/?uid=Tx_A3Ekt_Domain_Model_DrugiPogoj:609">Obligatory
+            membership of the Chamber
+        </condition>
+    </conditions>
+    <important>0</important>
+    <sources></sources>
+    <crossBorderProvisionOfProfession>
+        <![CDATA[ Performance of the activity in Slovenia is <strong>possible</strong> on <a href="en/starting/cross-bordertemporary-provision-of-services/">cross-border/temporary basis</a>. You may start performing it after <strong>acquisition of a specific permit</strong> from Competent authority.<br /><a class="btn btnblack" href="en/crossborder-provision-of-profession/profession_/77/crossborderProvisionOfProfession/20/showCrossborderProvisionOfProfession/">Obtaining permit</a> ]]></crossBorderProvisionOfProfession>
+    <recognitionOfQualificationsAcquiredAbroad>
+        <![CDATA[ There are following systems for the <a href="en/running/employees/recognition-of-qualifications-acquired-abroad/">recognition</a> of professional qualifications acquired in the EU:<br /><a class="btn btnblack" href="en/permit-abroad/profession_/77/permitAbroad/28/showPermitAbroad/">Recognition according to the general system </a><a class="btn btnblack" href="en/permit-abroad/profession_/77/permitAbroad/30/showPermitAbroad/">Automatic recognition</a> ]]></recognitionOfQualificationsAcquiredAbroad>
+    <secondaryContent></secondaryContent>
+    <legalAuthority>
+        <title href="www.mzip.gov.si/en/">Ministry of Infrastructure and Spatial Planning</title>
+        <address>Langusova 4 1000 Ljubljana Slovenia</address>
+        <contact></contact>
+    </legalAuthority>
+    <legislation></legislation>
+</profession>
