@@ -5,6 +5,7 @@ import org.jboss.resteasy.plugins.providers.RegisterBuiltin;
 import org.jboss.resteasy.spi.ResteasyProviderFactory;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 /**
@@ -12,13 +13,18 @@ import java.util.Properties;
  * @created 3/27/13 4:19 PM
  */
 public class EugoServiceFactory {
-    public static final String DEFAULT_API_ENDPOINT = "http://www.eugo.gov.si/";
 
     public static EugoService createEugoService() throws IOException {
-        // TODO: Handle missing config.properties
-        Properties properties = new Properties();
-        properties.load(EugoServiceFactory.class.getResourceAsStream("/config.properties"));
-        String apiEndpoint = properties.getProperty("api.endpoint", DEFAULT_API_ENDPOINT);
+        Properties defaults = new Properties();
+        defaults.load(EugoServiceFactory.class.getResourceAsStream("eugo-config-default.properties"));
+
+
+        Properties properties = new Properties(defaults);
+        InputStream propertiesSrc = EugoServiceFactory.class.getResourceAsStream("/eugo-config.properties");
+        if (propertiesSrc != null) {
+            properties.load(propertiesSrc);
+        }
+        String apiEndpoint = properties.getProperty("api.endpoint");
 
         ResteasyProviderFactory factory = ResteasyProviderFactory.getInstance();
         RegisterBuiltin.register(factory);
