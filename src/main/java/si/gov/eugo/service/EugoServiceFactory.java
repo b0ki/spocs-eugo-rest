@@ -41,7 +41,7 @@ public class EugoServiceFactory {
         RegisterBuiltin.register(factory);
     }
 
-    public static EugoService createEugoService() throws IOException {
+    public static EugoService createEugoService() {
         return ProxyFactory.create(EugoService.class, apiEndpointUrl);
     }
 }
