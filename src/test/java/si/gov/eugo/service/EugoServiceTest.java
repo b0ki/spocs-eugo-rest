@@ -20,6 +20,8 @@ public class EugoServiceTest {
 
         Profession profession = service.getProfession("77");
         log.debug("result = {}", profession);
+        Assert.assertNotNull(profession.getTitle());
+        Assert.assertTrue(profession.getTitle().contains("architect"));
         Assert.assertEquals(profession.getId(), "77");
     }
 }
