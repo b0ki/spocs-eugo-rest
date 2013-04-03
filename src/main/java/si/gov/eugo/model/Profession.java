@@ -11,8 +11,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement
 public class Profession {
-
-    @XmlAttribute
+	
+	@XmlAttribute
     private String id;
 
     private String title;
