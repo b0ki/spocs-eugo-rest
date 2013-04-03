@@ -19,6 +19,9 @@ public class Profession {
 
     private String description;
 
+    public Profession() {
+    }
+
     public Profession(String title, String description) {
         this.title = title;
         this.description = description;
