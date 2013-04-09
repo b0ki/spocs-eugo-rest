@@ -5,7 +5,7 @@ spocs
 
 Get the code and install into local maven repo:
 
-     $ git clone git://github.com/b0ki/spocs.git
+     $ git clone https://github.com/b0ki/spocs-eugo-rest.git
      $ cd spocs
      $ mvn clean install
 
