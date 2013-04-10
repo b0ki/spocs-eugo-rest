@@ -14,7 +14,7 @@ Include in a maven project:
      <dependency>
          <groupId>eu.spocs</groupId>
          <artifactId>spocs-client</artifactId>
-         <version>0.1-SNAPSHOT</version>
+         <version>0.1</version>
      </dependency>
 
 Use in Java code:
